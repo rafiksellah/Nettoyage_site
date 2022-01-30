@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+<div class="about" style="background-color: #f6f7f8;">
+    <div class="container" >
+        <p>
+            <span class="phone" wfd-id="2" data-mce-style="font-size: 	15pt; color: #000000;"><i class="fa fa-phone" data-mce-empty="1">&nbsp;</i> 
+                <strong>
+                    <span class="phone" data-mce-style="font-size: 15pt;"> 
+                        <a style="color: #15bcb6;" href="tel:09 87 38 48 85" data-mce-href="tel:09 87 38 48 85" data-mce-style="color: #15bcb6;">09 87 38 48 85
+                        </a>&nbsp;
+                        <i class="fa fa-mobile" data-mce-empty="1">&nbsp;</i>
+                        <a style="color: #15bcb6;" href="tel:+33 7 66 62 60 89" data-mce-href="tel:+33 7 66 62 60 89" data-mce-style="color: #15bcb6;">+33 7 66 62 60 89
+                        </a>
+                    </span>
+                </strong>
+            </span>
+        </p>
+        <p>
+            <span style="font-size: 15pt; color: #000000;" data-mce-style="font-size: 15pt; color: #000000;"><i class="fa fa-envelope" data-mce-empty="1">&nbsp;</i>
+            <strong> 
+                <span style="font-size: 10pt;" data-mce-style="font-size: 10pt;"> 
+                    <a style="color: #15bcb6;" href="mailto:eco.nettoyage75@gmail.com" 	data-mce-href="eco.nettoyage75@gmail.com" data-mce-style="color: #15bcb6;">eco.nettoyage75@gmail.com
+                    </a>
+                </span>
+                </strong>   
+            </span>
+        </p>
+        <div class="row">
+            <div class="col-lg-5 col-md-6">
+                <div class="about-img">
+                    <img src="{{ asset('build/img/service/maison.jpg') }}" alt="Image">
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-6">
+                <div class="about-text">
+                    <h1 class="font-40">Votre entreprise de <span class="text-yellow">Nettoyage</span>&nbsp;à Paris et en Ile de France, pour particuliers et professionnels - Devis gratuit dans la journée</h1>
+                    <p class="mt-4">
+                        La société ECO NET est une entreprise de nettoyage à Paris est au service des professionnels & particuliers et en Ile de France proposant de nombreux services de qualité professionnelle, un devis gratuit et une intervention rapide. Nous vous conseillons sur l'entretien de votre habitat et proposons le nettoyage de bureaux, le nettoyage d'appartements, maisons et tous locaux professionnels ou privés. Nous sommes à votre service pour l'entretien de copropriétés et nettoyage d'immeubles ainsi que pour le nettoyage après sinistre, dégât des eaux ou incendie. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
